@@ -1,4 +1,9 @@
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 
 .jumbotron {
@@ -20,19 +25,24 @@
 	animation-delay: 0s;
 }
 
-/*Tablet*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
+#about {
+	text-decoration: none;
+	color: rgb(11, 87, 114);
+	transition: 250ms;
+	opacity: .6;
+	padding: 3em;
 }
 
-/*Mobile*/
-
-@media only screen and (min-width: 400px) {
-
+#about:hover {
+	text-decoration: none;
+	opacity: 1;
 }
 
-/*Desktop*/
 
-@media only screen and (min-width: 961px) {
-
+#test {
+	text-decoration: none;
+	color: rgb(11, 87, 114);
+	transition: 250ms;
+	opacity: .5;
 }
+
