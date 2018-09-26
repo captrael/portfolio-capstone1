@@ -1,0 +1,55 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.jumbotron {
+	border: 5px solid grey;
+	background-color: rgba(128,128,0.15);
+	margin-top: 50px;
+}
+
+
+#portfolio {
+	height: 100vh;
+}
+
+#skills {
+	height: 100vh;
+}
+
+.fadeInLeft {
+	animation-delay: 0s;
+}
+
+#about {
+	text-decoration: none;
+	color: rgb(11, 87, 114);
+	transition: 250ms;
+	opacity: .6;
+	padding-right: 1em;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#about:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+
+
+#test {
+	text-decoration: none;
+	color: rgb(11, 87, 114);
+	transition: 250ms;
+	opacity: .5;
+}
+
+a {
+	text-decoration: none;
+}
