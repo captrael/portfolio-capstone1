@@ -6,11 +6,17 @@
 }
 
 body {
-	font-family: font-family: 'Montserrat', sans-serif;
+
 }
 
 .navbar {
 	height: 8vh;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+.social {
+	margin: 0 .5em 0 .5em;
+	opacity: .75;
 }
 
 header {
@@ -20,6 +26,7 @@ header {
 	background-size: cover;
 	height: 92vh;
 	padding-top: 20vh;
+	font-family: 'Strait', sans-serif;
 }
 
 
@@ -33,22 +40,14 @@ header {
 .about {
 	width: 100%;
 	height: 100vh;
-	background-image: url(../images/mountainbg.jpeg);
-	opacity: .7;
-	position: relative;
-
-}
-
-#overlay {
-	height: 100vh;
-	background: rgba(155,0,0,0.15);
+	background: #fff;
+	background-size: cover;
 }
 
 
-#img__me {
-
+.header_bg {
+	animation-duration: .5s;
 }
-
 
 .card {
 	margin-top: 10px;
@@ -58,8 +57,6 @@ header {
 
 
 
-
-*/
 /*Desktop*/
 @media only screen and (min-width: 961px){
 
@@ -70,7 +67,9 @@ header {
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px){
 
-
+#navbar {
+	height: 100%;
+}
 
 }
 
@@ -78,6 +77,9 @@ header {
 /*Mobile*/
 @media only screen and (min-width: 401px) and (max-width: 400px){
 
+.navbar {
+	z-index: 1;
+}
 
 }
 
