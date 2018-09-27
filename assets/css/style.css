@@ -2,59 +2,75 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
 }
 
-body {
 
-}
 
 .navbar {
 	height: 8vh;
 	font-family: 'Share Tech Mono', monospace;
 }
 
-.social {
-	margin: 0 .5em 0 .5em;
-	opacity: .75;
-}
 
-header {
-	background-image: url(../images/mountainbg.jpeg);
-	background-repeat: no-repeat;
+.header_p1 {
+	animation-duration: .5s;
+	background: url(../images/webbg.jpg) no-repeat fixed 92%;
 	background-position: center;
 	background-size: cover;
 	height: 92vh;
-	padding-top: 20vh;
-	font-family: 'Strait', sans-serif;
 }
 
-
-/*#overlay_header {
+.ovly_header {
 	height: 92vh;
-	background: #fff;
-	opacity: 0.15;
-}*/
+	background: rgb(0, 0, 0, .15);
+}
 
+.header_text {
+	font-size: 3.25em;
+	color: #fffe66;
+	margin-top: 25vh;
+	background-color: rgba(51,51,51,0.2);
+	border-radius: 10px;
+	font-family: 'Share Tech Mono', monospace;
+
+}
 
 .about {
-	width: 100%;
+	margin: 0;
+	/*padding: 0;*/
 	height: 100vh;
 	background: #fff;
 	background-size: cover;
 }
 
-
-.header_bg {
-	animation-duration: .5s;
+.img_about {
+	margin: 12px 0 12px 12px;
+	padding: 0;
 }
 
-.card {
-	margin-top: 10px;
-	padding: 10px;
+.h1_about {
+	height: 100%;
+	margin: 2px;
+	padding: 1px;
+	font-size: 2.5em;
+	color: #fffe66;
 	background-color: transparent;
+	font-family: 'Share Tech Mono', monospace;
 }
 
+.h1_webdev {
+	margin-top: 10vh;
+
+}
+
+
+.whyhire {
+	background: url(../images/whyhirebg.jpg) no-repeat fixed 100%;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	
+}
 
 
 /*Desktop*/
@@ -71,14 +87,62 @@ header {
 	height: 100%;
 }
 
+.header_p1 {
+	height: 100vh;
+}
+
+.ovly_header {
+	height: 100vh;
+	background: rgb(0, 0, 0, .15);
+}
+
+.img_about {
+	margin: 0;
+	padding: 0;
+}
+
+.header_text {
+	font-size: 2.5em;
+	color: #fffe66;
+	margin-top: 25vh;
+	background-color: rgba(51,51,51,0.2);
+	border-radius: 10px;
+	font-family: 'Share Tech Mono', monospace;
+
+}
+
 }
 
 
 /*Mobile*/
-@media only screen and (min-width: 401px) and (max-width: 400px){
+@media only screen and (max-width: 400px){
 
-.navbar {
-	z-index: 1;
+#navbar {
+	height: 100%;
+}
+
+.header_p1 {
+	height: 100vh;
+}
+
+.ovly_header {
+	height: 100vh;
+	background: rgb(0, 0, 0, .15);
+}
+
+.img_about {
+	margin: 0;
+	padding: 0;
+}
+
+.header_text {
+	font-size: 2em;
+	color: #fffe66;
+	margin-top: 25vh;
+	background-color: rgba(51,51,51,0.2);
+	border-radius: 10px;
+	font-family: 'Share Tech Mono', monospace;
+
 }
 
 }
